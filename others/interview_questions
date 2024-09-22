@@ -1,0 +1,69 @@
+1. Explain the differences between functional and non-functional testing.
+
+2. What is the role of an SDET in an agile development process?
+
+3. How do you approach test automation for a new project?
+
+4. Describe your experience with continuous integration and continuous deployment (CI/CD) tools.
+
+5. How do you handle flaky tests in your automation suite?
+
+6. What programming languages are you proficient in for test automation?
+
+7. How do you design a test plan for a complex application?
+
+8. Explain the concept of test-driven development (TDD).
+
+9. What is the difference between white-box and black-box testing?
+
+10. How do you prioritize test cases in a test suite?
+
+11. Describe a challenging bug you found and how you resolved it.
+
+12. What are some best practices for writing maintainable test scripts?
+
+13. How do you ensure test coverage and what tools do you use to measure it?
+
+14. Explain the use of mocking in unit testing.
+
+15. What is the importance of code reviews in the context of test automation?
+
+16. How do you stay updated with the latest testing tools and techniques?
+
+17. What is the role of performance testing, and how do you conduct it?
+
+18. Describe your experience with API testing.
+
+19. How do you manage test data for automated tests?
+
+20. Explain the process of debugging a failing test case.
+
+21. What is the difference between integration testing and system testing?
+
+22. How do you ensure the security of your test environment?
+
+23. What strategies do you use for effective collaboration with developers and other stakeholders?
+
+24. Explain how you handle testing in a microservices architecture.
+
+25. What are some common challenges in test automation and how do you overcome them?
+
+26. Do you design a test automation framework from scratch?
+
+27. Explain how you would test a distributed system with multiple microservices.
+
+28. How do you handle test dependencies and ensure test isolation in your test suites?
+
+29. Describe a situation where you had to optimize your test suite to reduce execution time significantly. What approaches did you take?
+
+30. Tell me would you approach testing a system with high concurrency and potential race conditions?
+
+31. Explain how you would integrate security testing into your CI/CD pipeline.
+
+32.What strategies do you use for testing applications that heavily rely on third-party APIs?
+
+33. Do you ensure the reliability and scalability of your automated tests? Describe your approach to handling and testing large datasets.
+
+34. Do you deal with the challenge of testing in a cloud environment with dynamic infrastructure?
+
+35. Explain the process of migrating from a legacy test automation framework to a new one.

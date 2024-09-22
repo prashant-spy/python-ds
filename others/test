@@ -1,0 +1,45 @@
+    - [ ] Imagine you have a table named Employees with the following columns: EmployeeID, FirstName, LastName, DepartmentID, and Salary.
+    Now, write an SQL query to retrieve the average salary for each department. If a department has no employees, it should still be included in the result
+    with a NULL value for the average salary.
+
+
+
+EmployeeID, FirstName, LastName, DepartmentID, and Salary
+
+select avg(salary) as avg_salary,DepartmentID from Employee group by DepartmentID order by avg_salary desc offset limit 1;
+
+
+
+
+Config  folder---  where all the configs like preprod ,prod, smoke.
+Utility class - all mysql, database quesies like db connection to store result
+object_repossitory - where we have to store all object along with its locator class. for this i will storing this in a mongo db where all the static and dynamic data can be stiore
+test_folder- testing class and testing objects are storeing in this
+
+    test_finding_topstories.py
+    @pytest.mark.regression
+    @pytest.fixtures.common_component
+
+
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/bin/java
+export PATH=$PATH:/usr/lib/jvm/java-11-openjdk-amd64/bin
+
+/usr/lib/jvm/java-11-openjdk-amd64/bin/
+
+@pytest.mark.@sanity
+test_finding_highlights.py
+
+reporting - where we store all reporting like pass/fail cases. we use allure reporting here.
+config.ini
+
+conftest.py
+    def common_component()
+        return data
+google drive xlsl - sheet where the test execution of record is maintained. which  Yes, NO
+
+
+
+pytest /user/destop/codebase<path of testing folder> -m "regression" --report=<path of saving of result>  --allurepath=<path of report> --config=non-prod
+
+
+testbeats api key - 81504c4afe50477ab4a7c292e9264f8b
